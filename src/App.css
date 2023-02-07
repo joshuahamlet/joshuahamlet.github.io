@@ -1,0 +1,8 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    background-color: #0f6be2;
+    background-color: #09346b;
+    background: radial-gradient(#0f6be2, #09346b);
+    overflow: hidden;
+  }

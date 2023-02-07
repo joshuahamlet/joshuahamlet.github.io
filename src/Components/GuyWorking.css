@@ -1,0 +1,35 @@
+.guy-working {
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+    width: 800px;
+    filter: drop-shadow(23px 0px 4px rgba(0, 0, 0, .80));
+    transform: translateX(20px);
+}
+
+@media screen and (max-width: 600px) {
+    .guy-working {
+      width: 750px;
+    }
+  } 
+  
+  @media screen and (max-width: 500px) {
+    .guy-working {
+      width: 650px;
+    }
+  } 
+  
+  @media screen and (max-width: 450px) {
+    .guy-working {
+      width: 625px;
+    }
+  } 
+  
+  @media screen and (max-width: 400px) {
+    .guy-working {
+      width: 600px;
+    }
+  } 
