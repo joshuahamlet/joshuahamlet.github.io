@@ -19,13 +19,10 @@ const AboutView = () => {
         </div>
 
         <div className="blob-text-container">
-        <div className="blob-text-shadow-top"/>
-        <div className="blob-text">
         resume
         blog
         socials
-        </div>
-        <div className="blob-text-shadow-bottom"/>
+        sdfs
         </div>
         </motion.div>
     )
