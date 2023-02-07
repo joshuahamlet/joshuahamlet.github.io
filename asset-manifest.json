@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e3fed79.chunk.css",
-    "main.js": "/static/js/main.fe364e2b.chunk.js",
-    "main.js.map": "/static/js/main.fe364e2b.chunk.js.map",
+    "main.css": "/static/css/main.1c92b272.chunk.css",
+    "main.js": "/static/js/main.ab3bccc8.chunk.js",
+    "main.js.map": "/static/js/main.ab3bccc8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e495b04f.js",
     "runtime-main.js.map": "/static/js/runtime-main.e495b04f.js.map",
     "static/js/2.f34de736.chunk.js": "/static/js/2.f34de736.chunk.js",
     "static/js/2.f34de736.chunk.js.map": "/static/js/2.f34de736.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.22b6ddd03d3c9ea670ffbd2bed13c13f.js": "/precache-manifest.22b6ddd03d3c9ea670ffbd2bed13c13f.js",
+    "precache-manifest.643e13b0448431177430d6d5179aea76.js": "/precache-manifest.643e13b0448431177430d6d5179aea76.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.0e3fed79.chunk.css.map": "/static/css/main.0e3fed79.chunk.css.map",
+    "static/css/main.1c92b272.chunk.css.map": "/static/css/main.1c92b272.chunk.css.map",
     "static/js/2.f34de736.chunk.js.LICENSE.txt": "/static/js/2.f34de736.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/SquadaOne-Regular.87175716.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.e495b04f.js",
     "static/js/2.f34de736.chunk.js",
-    "static/css/main.0e3fed79.chunk.css",
-    "static/js/main.fe364e2b.chunk.js"
+    "static/css/main.1c92b272.chunk.css",
+    "static/js/main.ab3bccc8.chunk.js"
   ]
 }
