@@ -1,0 +1,35 @@
+.computer {
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+    width: 500px;
+    filter: drop-shadow(23px 0px 4px rgba(0, 0, 0, .80));
+    transform: translateX(20px);
+}
+
+@media screen and (max-width: 600px) {
+    .computer {
+      width: 750px;
+    }
+  } 
+  
+  @media screen and (max-width: 500px) {
+    .computer {
+      width: 650px;
+    }
+  } 
+  
+  @media screen and (max-width: 450px) {
+    .computer {
+      width: 625px;
+    }
+  } 
+  
+  @media screen and (max-width: 400px) {
+    .computer {
+      width: 600px;
+    }
+  } 
