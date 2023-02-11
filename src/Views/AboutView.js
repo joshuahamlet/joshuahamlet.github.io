@@ -26,6 +26,7 @@ const AboutView = () => {
       transition={{ type: 'spring', stiffness: 100 }}
     >
       <div className='about-bubble'>
+        <div className='about-text'>
         here is some stuff aboout me.
         here is some stuff aboout me.
         here is some stuff aboout me.
@@ -37,6 +38,11 @@ const AboutView = () => {
         here is some stuff aboout me.
         here is some stuff aboout me.
         here is some stuff aboout me.
+        here is some stuff aboout me.
+        here is some stuff aboout me.
+        here is some stuff aboout me.
+        here is some stuff aboout me.
+        </div>
         <div className='bubble-tail'></div>
       </div>
       <div className='computer-container'>

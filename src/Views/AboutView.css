@@ -9,9 +9,10 @@
 }
 
 .about-bubble {
-  width: 450px;
-  height: 150px;
-  transform: skew(-20deg) translateX(60px);
+  min-width: 350px;
+  max-width: 450px;
+  margin: 0.5rem;
+  height: auto;
   background: #B8F4BA;
   color: #0ea86c;
   font-size: 1.15rem;
@@ -19,6 +20,10 @@
   box-sizing: border-box;
   filter: drop-shadow(23px 0px 4px rgba(0, 0, 0, 0.8));
   position: relative;
+}
+
+.about-text {
+  padding: 1rem;
 }
 
 .bubble-tail {
@@ -29,7 +34,7 @@
   border-right: 0px solid transparent;
   position: absolute;
   right: 0px;
-  bottom: -40px
+  bottom: -38px
 }
 
 .computer-container {
@@ -37,6 +42,7 @@
   overflow: hidden;
   height: 300px;
   width: 600px;
+  transform: translateX(-30px);
 }
 
 .about-links {
@@ -57,3 +63,55 @@
   justify-content: center;
   align-items: center;
 }
+
+
+@media screen and (max-width: 600px) {
+  .icon-small {
+    font-size: 75px;
+    height: 80px;
+    width: 80px;
+    filter: drop-shadow(18px 8px 4px rgba(0, 0, 0, .80));
+  }
+  .guy-working-container {
+    height: 375px;
+  }
+} 
+
+@media screen and (max-width: 500px) {
+  .icon-small {
+    font-size: 50px;
+    height: 75px;
+    width: 75px;
+    margin: 10px;
+    filter: drop-shadow(15px 7px 4px rgba(0, 0, 0, .80));
+  }
+  .guy-working-container {
+    height: 350px;
+  }
+} 
+
+@media screen and (max-width: 450px) {
+  .icon-small {
+    font-size: 45px;
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+    filter: drop-shadow(13px 6px 4px rgba(0, 0, 0, .80));
+  }
+  .guy-working-container {
+    height: 325px;
+  }
+} 
+
+@media screen and (max-width: 400px) {
+  .icon-small {
+      font-size: 35px;
+      height: 65px;
+      width: 65px;
+      margin: 10px;
+      filter: drop-shadow(10px 5px 4px rgba(0, 0, 0, .80));
+  }
+  .guy-working-container {
+    height: 300px;
+  }
+} 
