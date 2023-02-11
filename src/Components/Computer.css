@@ -12,7 +12,7 @@
 
 @media screen and (max-width: 600px) {
     .computer {
-      width: 550px;
+      width: 475px;
     }
   } 
   
@@ -30,6 +30,6 @@
   
   @media screen and (max-width: 400px) {
     .computer {
-      width: 325px;
+      width: 360px;
     }
   } 
