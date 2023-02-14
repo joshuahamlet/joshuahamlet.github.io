@@ -27,12 +27,11 @@ const AboutView = () => {
     >
       <div className='about-bubble'>
         <div className='about-text'>
-        here is some stuff aboout me.
-        here is some stuff aboout me.
-        here is some stuff aboout me.
-        here is some stuff aboout me.
-        here is some stuff aboout me.
-        here is some stuff aboout me.
+        Hello! I am a former acocuntant turned developer.
+        I am a big fan of Linux and open source software.
+        I am a game development hobbyist.
+        I develop front end web apps primarily with the React ecosystem.
+        I like to leverage Typescript whenever possible.
         here is some stuff aboout me.
         here is some stuff aboout me.
         here is some stuff aboout me.
