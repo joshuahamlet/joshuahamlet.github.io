@@ -4,19 +4,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   overflow: hidden;
 }
 
 .about-bubble {
-  min-width: 350px;
+  min-width: 280px;
   max-width: 450px;
   margin: 0.5rem;
   height: auto;
-  background: #B8F4BA;
+  background: #b8f4ba;
   color: #0ea86c;
   font-size: 1.15rem;
   padding: 1rem;
+  margin-top: 5rem;
   box-sizing: border-box;
   filter: drop-shadow(23px 0px 4px rgba(0, 0, 0, 0.8));
   position: relative;
@@ -29,12 +30,11 @@
 .bubble-tail {
   width: 0px;
   height: 0px;
-  border-top: 40px solid #B8F4BA;
+  border-top: 40px solid #b8f4ba;
   border-left: 40px solid transparent;
-  border-right: 0px solid transparent;
   position: absolute;
   right: 0px;
-  bottom: -38px
+  bottom: -38px;
 }
 
 .computer-container {
@@ -47,71 +47,57 @@
 
 .about-links {
   display: flex;
-  justify-content: space-between;
-  width: 450px;
+  justify-content: space-around;
+  max-width: 450px;
+  min-width: 330px;
+  width: 100%;
+  margin:  1.5rem;
 }
 
 .mini-card {
   background-color: #b8f4bb;
   display: flex;
-  width: 6.5rem;
+  width: 5rem;
   color: #0ea86c;
   font-size: 1.75rem;
   padding: 0.75rem;
   border-radius: 0.75rem;
-  margin-top: 1rem;
   justify-content: center;
   align-items: center;
 }
 
-
 @media screen and (max-width: 600px) {
-  .icon-small {
-    font-size: 75px;
-    height: 80px;
-    width: 80px;
-    filter: drop-shadow(18px 8px 4px rgba(0, 0, 0, .80));
+.about-bubble {
+    margin-top: 4rem;
   }
-  .guy-working-container {
-    height: 375px;
+  .about-text {
+    padding: 0.75rem;
   }
-} 
+}
 
 @media screen and (max-width: 500px) {
-  .icon-small {
-    font-size: 50px;
-    height: 75px;
-    width: 75px;
-    margin: 10px;
-    filter: drop-shadow(15px 7px 4px rgba(0, 0, 0, .80));
+ .about-bubble {
+    margin-top: 3rem;
   }
-  .guy-working-container {
-    height: 350px;
+  .about-text {
+    padding: 0.5rem;
   }
-} 
+}
 
 @media screen and (max-width: 450px) {
-  .icon-small {
-    font-size: 45px;
-    height: 70px;
-    width: 70px;
-    margin: 10px;
-    filter: drop-shadow(13px 6px 4px rgba(0, 0, 0, .80));
+  .about-bubble {
+    margin: 2rem 1rem 0 1rem;
   }
-  .guy-working-container {
-    height: 325px;
+  .about-text {
+    padding: 0.25rem;
   }
-} 
+}
 
 @media screen and (max-width: 400px) {
-  .icon-small {
-      font-size: 35px;
-      height: 65px;
-      width: 65px;
-      margin: 10px;
-      filter: drop-shadow(10px 5px 4px rgba(0, 0, 0, .80));
+  .about-bubble {
+    margin: 1rem 1rem 0 1rem;
   }
-  .guy-working-container {
-    height: 300px;
+  .about-text {
+    padding: 0.25rem;
   }
-} 
+}
