@@ -1,5 +1,0 @@
----
-icon: "icon"
----
-
-Hello
