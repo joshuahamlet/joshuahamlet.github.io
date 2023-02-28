@@ -1,6 +1,8 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { FaArrowCircleRight } from 'react-icons/fa'
+import { TiSocialGithubCircular } from 'react-icons/ti'
+import { FaLink, FaGithubAlt } from 'react-icons/fa'
 import './Icons.css'
 
 const Icons = ({ project, setClicky }) => {
@@ -27,21 +29,8 @@ const Icons = ({ project, setClicky }) => {
               transition={{ duration: 0.2, delay: 0.5 }}
               className='icon-title-text-title'
             >
-              {console.log(project.title)}
               {project.title}
             </motion.div>
-
-            <motion.a
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.2, delay: 0.75 }}
-              className='icon-title-text-link'
-              href={project.link}
-              target='_blank'
-            >
-              go to project{' '}
-              <FaArrowCircleRight style={{ transform: 'translateY(2px)' }} />
-            </motion.a>
           </motion.div>
         </motion.div>
 
@@ -52,24 +41,61 @@ const Icons = ({ project, setClicky }) => {
           transition={{ duration: 0.2, delay: 0.75 }}
         >
           <motion.div
-            className='icon-feature-box-item'
-            initial={{ x: '-200%', opacity: 1 }}
+            initial={{ x: '-100%', opacity: 1 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ delay: 1.2 }}
           >
-            bloop
+            {project.stack.map((tech) => (
+              <div className='icon-feature-box-item'>{tech}</div>
+            ))}
           </motion.div>
         </motion.div>
 
         <motion.div
+          stlyle={{}}
           className='icon-description-box'
           initial={{ y: '100%', opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.75 }}
         >
-          bloop uh doop and shoop duh whoop bloop uh doop and shoop duh whoop
-          bloop uh doop and shoop duh whoop bloop uh doop and shoop duh whoop
-          bloop uh doop and shoop duh whoop bloop uh doop and shoop duh whoop
+          <div
+            style={{
+              width: '100%',
+              textAlign: project.id === 'E' ? 'center' : 'left',
+            }}
+          >
+            {project.summary}
+          </div>
+          <div
+            style={{
+              marginTop: '1rem',
+              display: 'flex',
+              justifyContent: project.id === 'E' ? 'center' : 'flex-start',
+            }}
+          >
+            <div style={{ marginRight: '1rem' }}>
+              <a
+                href={project.github}
+                title='go to github'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <FaGithubAlt size={project.id === 'E' ? 160 : 34} />
+              </a>
+            </div>
+            {project.link ? (
+              <a
+                href={project.link}
+                title='go to site'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <FaLink size={26} />
+              </a>
+            ) : (
+              ''
+            )}
+          </div>
         </motion.div>
       </motion.div>
 
