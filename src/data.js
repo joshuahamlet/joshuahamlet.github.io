@@ -5,6 +5,7 @@ import { IoTerminal, IoGameController } from 'react-icons/io5'
 import { BiMoviePlay } from 'react-icons/bi'
 import { FaShoppingBag } from 'react-icons/fa'
 import { FiMoreHorizontal } from 'react-icons/fi'
+import { FaFrog } from 'react-icons/fa'
 
 export const projects = [
   {
@@ -55,6 +56,19 @@ export const projects = [
       'Experimental React text adventure game utilizing Jotai for state management and Phaser for top-down rpg elements.',
     github: 'https://github.com/joshuahamlet/react-text-engine',
     site: 'https://react-txt-adventure.web.app/',
+  },
+  {
+    id: 'H',
+    title: 'Ninja Frog Adventure',
+    icon: <FaFrog  />,
+    stack: [
+      'C#',
+      'unity',
+    ],
+    link: 'https://jayhamismyjam.itch.io/ninja-frog-adventure',
+    summary:
+      'Short demo with top-down and platformer elements... and a ninja frog. Written in C# with Unity.',
+    github: '',
   },
   {
     id: 'D',
