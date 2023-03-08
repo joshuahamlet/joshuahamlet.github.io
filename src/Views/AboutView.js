@@ -27,26 +27,27 @@ const AboutView = () => {
     >
       <div className='about-bubble'>
         <div className='about-text'>
-        Hello! I am a former acocuntant turned developer.
-        I am a big fan of Linux and open source software.
-        I am a game development hobbyist.
+        Hello! I am a former acocuntant turned developer and 
+        lifelong learner.
+        </div>
+        <div className='about-text'>
         I develop front end web apps primarily with the React ecosystem.
         I like to leverage Typescript whenever possible.
-        here is some stuff aboout me.
-        here is some stuff aboout me.
-        here is some stuff aboout me.
-        here is some stuff aboout me.
-        here is some stuff aboout me.
-        here is some stuff aboout me.
-        here is some stuff aboout me.
-        here is some stuff aboout me.
-        here is some stuff aboout me.
+        </div>
+        <div className='about-text'>
+        I am a big fan of Linux and open source software. Daily workflow
+        includes i3 tiling window manager, Tmux or Zellij terminal multiplexer,
+        and NeoVim as IDE (or PDE).
+        </div>
+        <div className='about-text'>
+        I am a game development hobbyist.
         </div>
         <div className='bubble-tail'></div>
       </div>
       <div className='computer-container'>
         <Computer />
       </div>
+      {/*
       <div className='about-links'>
         <a
           href='https://joshuahamlet.surge.sh/resume'
@@ -60,7 +61,10 @@ const AboutView = () => {
           target='_blank'
           rel='noopener noreferrer'
         >
-          <div className='mini-card'>blog</div>
+          <div className='mini-card'>
+            <div>blog</div>
+            <div>Coming soon </div>
+          </div>
         </a>
         <a
           href='https://joshuahamlet.surge.sh/resume'
@@ -70,6 +74,7 @@ const AboutView = () => {
           <div className='mini-card'>socials</div>
         </a>
       </div>
+      */}
     </motion.div>
   )
 }

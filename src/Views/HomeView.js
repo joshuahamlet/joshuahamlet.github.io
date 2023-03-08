@@ -10,12 +10,9 @@ const HomeView = () => {
   const [clicky, setClicky] = useState()
 
   const dealieHandler = (project) => {
-    console.log("PROJECT",project)
     setClicky({...project})
   }
 
-  console.log("CLICKY",clicky)
-  
   return (
     <>
     

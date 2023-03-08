@@ -85,7 +85,33 @@ class ContactView extends React.Component {
         modalToggle={this.state.modalToggle} 
         modalHandler={this.modalHandler}
         />
-
+      
+      <div className='about-links'>
+        <a
+          href='https://joshuahamlet.surge.sh/resume'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <div className='mini-card'>resume</div>
+        </a>
+        <a
+          href='https://joshuahamlet.surge.sh/resume'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <div className='mini-card' style={{flexDirection: "column"}}>
+            <div>blog</div>
+            <div style={{fontSize: "1rem"}}>Coming soon </div>
+          </div>
+        </a>
+        <a
+          href='https://joshuahamlet.surge.sh/resume'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <div className='mini-card'>socials</div>
+        </a>
+      </div>
       </motion.div>
     );
   }

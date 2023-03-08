@@ -23,10 +23,6 @@
   position: relative;
 }
 
-.about-text {
-  padding: 1rem;
-}
-
 .bubble-tail {
   width: 0px;
   height: 0px;
@@ -56,7 +52,9 @@
 
 .mini-card {
   background-color: #b8f4bb;
+  height: 3rem;
   display: flex;
+  flex-direction: column;
   width: 5rem;
   color: #0ea86c;
   font-size: 1.75rem;
@@ -66,38 +64,46 @@
   align-items: center;
 }
 
+.about-text {
+  margin-bottom: 0.5rem;  
+}
+
 @media screen and (max-width: 600px) {
 .about-bubble {
     margin-top: 4rem;
+    padding: 0.75rem;
   }
   .about-text {
-    padding: 0.75rem;
+    margin-bottom: 0.5rem;
   }
 }
 
 @media screen and (max-width: 500px) {
  .about-bubble {
     margin-top: 3rem;
+    padding: 0.5rem;
   }
   .about-text {
-    padding: 0.5rem;
+    margin-bottom: 0.5rem;
   }
 }
 
 @media screen and (max-width: 450px) {
   .about-bubble {
     margin: 2rem 1rem 0 1rem;
+    padding: 0.5rem;
   }
   .about-text {
-    padding: 0.25rem;
+    margin-bottom: 0.5rem;
   }
 }
 
 @media screen and (max-width: 400px) {
   .about-bubble {
     margin: 1rem 1rem 0 1rem;
+    padding: 0.5rem;
   }
   .about-text {
-    padding: 0.25rem;
+    margin-bottom: 0.5rem;
   }
 }
