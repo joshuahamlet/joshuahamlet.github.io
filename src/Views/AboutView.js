@@ -31,50 +31,27 @@ const AboutView = () => {
         lifelong learner.
         </div>
         <div className='about-text'>
-        I develop front end web apps primarily with the React ecosystem.
-        I like to leverage Typescript whenever possible.
+        I develop full-stack web apps primarily with the React/NodeJS ecosystem. Among the
+        meta-frameworks Astro and Next.js are my current favorites.
+        MongoDB has been my database of choice but excited to leverage more PostgreSQL. 
+        I think Typescript is pretty great.
         </div>
         <div className='about-text'>
-        I am a big fan of Linux and open source software. Daily workflow
+        I am a big fan of Linux and open source software. My daily workflow
         includes i3 tiling window manager, Tmux or Zellij terminal multiplexer,
         and NeoVim as IDE (or PDE).
         </div>
         <div className='about-text'>
-        I am a game development hobbyist.
+        On the side, I aspire to be a game dev hobbyist. Unity and Phaser3 have provided
+        the basis for a couple prototypes/demos. I'm Excited to experiment with the Lua based 
+        Love2D and Pico-8. 
+        {/* Learning new languages */} 
         </div>
         <div className='bubble-tail'></div>
       </div>
       <div className='computer-container'>
         <Computer />
       </div>
-      {/*
-      <div className='about-links'>
-        <a
-          href='https://joshuahamlet.surge.sh/resume'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          <div className='mini-card'>resume</div>
-        </a>
-        <a
-          href='https://joshuahamlet.surge.sh/resume'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          <div className='mini-card'>
-            <div>blog</div>
-            <div>Coming soon </div>
-          </div>
-        </a>
-        <a
-          href='https://joshuahamlet.surge.sh/resume'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          <div className='mini-card'>socials</div>
-        </a>
-      </div>
-      */}
     </motion.div>
   )
 }
